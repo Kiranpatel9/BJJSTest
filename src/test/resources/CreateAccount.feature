@@ -7,7 +7,7 @@ Feature: Create an account
   Scenario: User can able to create an account
     When User selects SignIn link
     Then User should see the Create Account Page
-    When User enter email as "bjsstest234+138@gmail.com"
+    When User enter email as "bjsstest234+139@gmail.com"
     Then User should see account registration page
     And User fill in account creation details
     Then User should see my account page
