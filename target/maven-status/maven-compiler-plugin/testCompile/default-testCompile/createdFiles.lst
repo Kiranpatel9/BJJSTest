@@ -1,0 +1,16 @@
+com/automationPractice/Pages/CreateAccountPage.class
+com/automationPractice/StepDefinitions/CreateAccountSteps.class
+com/automationPractice/Utils/BrowserFactory.class
+com/automationPractice/Pages/BasePage.class
+com/automationPractice/Pages/SignInPage.class
+com/automationPractice/StepDefinitions/PurchaseItemSteps.class
+com/automationPractice/Utils/Utils.class
+com/automationPractice/Pages/HomePage.class
+com/automationPractice/StepDefinitions/SignInSteps.class
+com/automationPractice/StepDefinitions/ReviewPreviousOrdersSteps.class
+com/automationPractice/Pages/ShoppingCartPage.class
+com/automationPractice/Pages/OrderConfirmationPage.class
+com/automationPractice/StepDefinitions/RunnerTest.class
+com/automationPractice/Utils/AutomationConstants.class
+com/automationPractice/Pages/OrderHistoryPage.class
+com/automationPractice/Pages/MyAccountPage.class

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="41" failures="0" name="com.automationPractice.StepDefinitions.RunnerTest" time="0.364" errors="2" skipped="9">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/sravanthireddy/IdeaProjects/BJJSTest"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/sravanthireddy/IdeaProjects/BJJSTest"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/ds/t4p9fz1s7lqfw6nj5f4wsnqh0000gq/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.0/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/sravanthireddy/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.0/libexec/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.0/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/sravanthireddy"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="sravanthireddy"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.0/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="java.ext.dirs" value="/Users/sravanthireddy/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.0/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="Scenario: User can able to login and add an expensive dress to cart" name="Given User is on the home page" time="0.006"/>
+  <testcase classname="Scenario: User can able to login and add an expensive dress to cart" name="When User selects SignIn link" time="0"/>
+  <testcase classname="Scenario: User can able to login and add an expensive dress to cart" name="Then User should see the Login Page" time="0"/>
+  <testcase classname="Scenario: User can able to login and add an expensive dress to cart" name="When User enter email as &quot;bjsstest234+134@gmail.com&quot; password as &quot;Password123&quot; and select Signin button" time="0"/>
+  <testcase classname="Scenario: User can able to login and add an expensive dress to cart" name="Then User should see my account page" time="0"/>
+  <testcase classname="Scenario: User can able to login and add an expensive dress to cart" name="Then User should see his name as &quot;Test test&quot;" time="0"/>
+  <testcase classname="Scenario: User can able to login and add an expensive dress to cart" name="When user selects home button" time="0"/>
+  <testcase classname="Scenario: User can able to login and add an expensive dress to cart" name="Then User is on the home page" time="0"/>
+  <testcase classname="Scenario: User can able to login and add an expensive dress to cart" name="Then user click on Dresses" time="0"/>
+  <testcase classname="Scenario: User can able to login and add an expensive dress to cart" name="Then user should see dress products" time="0.001"/>
+  <testcase classname="Scenario: User can able to login and add an expensive dress to cart" name="Then user Quick view dress product" time="0"/>
+  <testcase classname="Scenario: User can able to login and add an expensive dress to cart" name="And add the item to the cart" time="0"/>
+  <testcase classname="Scenario: User can able to login and add an expensive dress to cart" name="And user proceed to checkout" time="0"/>
+  <testcase classname="Scenario: User can able to login and add an expensive dress to cart" name="Then user should be on Shopping cart page" time="0"/>
+  <testcase classname="Scenario: User can able to login and add an expensive dress to cart" name="And user should see S size Dress" time="0"/>
+  <testcase classname="Scenario: User can able to login and add an expensive dress to cart" name="And user should see the correct price for Dress" time="0"/>
+  <testcase classname="Scenario: User can able to login and add an expensive dress to cart" name="When user select signout link" time="0"/>
+  <testcase classname="Scenario: User can able to login and add an expensive dress to cart" name="Then user should signout successfully" time="0"/>
+  <testcase classname="Scenario: User can able to login and add an expensive dress to cart" name="Scenario: User can able to login and add an expensive dress to cart" time="0.002"/>
+  <testcase classname="Scenario: User can able to create an account" name="Given User is on the home page" time="0"/>
+  <testcase classname="Scenario: User can able to create an account" name="When User selects SignIn link" time="0"/>
+  <testcase classname="Scenario: User can able to create an account" name="Then User should see the Create Account Page" time="0.001"/>
+  <testcase classname="Scenario: User can able to create an account" name="When User enter email as &quot;bjsstest234+139@gmail.com&quot;" time="0"/>
+  <testcase classname="Scenario: User can able to create an account" name="Then User should see account registration page" time="0"/>
+  <testcase classname="Scenario: User can able to create an account" name="And User fill in account creation details" time="0"/>
+  <testcase classname="Scenario: User can able to create an account" name="Then User should see my account page" time="0"/>
+  <testcase classname="Scenario: User can able to create an account" name="When user select signout link" time="0.001"/>
+  <testcase classname="Scenario: User can able to create an account" name="Then user should signout successfully" time="0"/>
+  <testcase classname="Scenario: User can able to create an account" name="Scenario: User can able to create an account" time="0.005"/>
+  <testcase classname="Scenario: Review Previous Orders and add a message successfully" name="Given User is on the home page" time="0"/>
+  <testcase classname="Scenario: Review Previous Orders and add a message successfully" name="When User selects SignIn link" time="0.029">
+    <error message="element click intercepted: Element &lt;a class=&quot;login&quot; href=&quot;http://automationpractice.com/index.php?controller=my-account&quot; rel=&quot;nofollow&quot; title=&quot;Log in to your customer account&quot;&gt;...&lt;/a&gt; is not clickable at point (1153, 83). Other element would receive the click: &lt;a href=&quot;http://automationpractice.com/index.php?controller=contact&quot; title=&quot;Contact Us&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=78.0.3904.87)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;UK-AB400-M.local&apos;, ip: &apos;fe80:0:0:0:91:18cf:26ab:da35%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /var/folders/ds/t4p9fz1s7lq...}, goog:chromeOptions: {debuggerAddress: localhost:63909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 889a88d98e7aff362fed4dd1546e5166" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;login&quot; href=&quot;http://automationpractice.com/index.php?controller=my-account&quot; rel=&quot;nofollow&quot; title=&quot;Log in to your customer account&quot;&gt;...&lt;/a&gt; is not clickable at point (1153, 83). Other element would receive the click: &lt;a href=&quot;http://automationpractice.com/index.php?controller=contact&quot; title=&quot;Contact Us&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=78.0.3904.87)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;UK-AB400-M.local&apos;, ip: &apos;fe80:0:0:0:91:18cf:26ab:da35%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /var/folders/ds/t4p9fz1s7lq...}, goog:chromeOptions: {debuggerAddress: localhost:63909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 889a88d98e7aff362fed4dd1546e5166
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy19.click(Unknown Source)
+	at com.automationPractice.Pages.HomePage.navigateToSignPage(HomePage.java:53)
+	at com.automationPractice.StepDefinitions.SignInSteps.user_selects_SignIn_link(SignInSteps.java:50)
+	at ✽.When User selects SignIn link(ReviewPreviousOrders.feature:8)
+</error>
+    <system-out>
+  Background:                      &amp;#27;[90m# ReviewPreviousOrders.feature:4&amp;#27;[0m
+    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mUser is on the home page&amp;#27;[0m &amp;#27;[90m# SignInSteps.verifyIsUserOnTheHomePage()&amp;#27;[0m
+</system-out>
+  </testcase>
+  <testcase classname="Scenario: Review Previous Orders and add a message successfully" name="Scenario: Review Previous Orders and add a message successfully" time="0.031">
+    <error message="element click intercepted: Element &lt;a class=&quot;login&quot; href=&quot;http://automationpractice.com/index.php?controller=my-account&quot; rel=&quot;nofollow&quot; title=&quot;Log in to your customer account&quot;&gt;...&lt;/a&gt; is not clickable at point (1153, 83). Other element would receive the click: &lt;a href=&quot;http://automationpractice.com/index.php?controller=contact&quot; title=&quot;Contact Us&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=78.0.3904.87)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;UK-AB400-M.local&apos;, ip: &apos;fe80:0:0:0:91:18cf:26ab:da35%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /var/folders/ds/t4p9fz1s7lq...}, goog:chromeOptions: {debuggerAddress: localhost:63909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 889a88d98e7aff362fed4dd1546e5166" type="org.openqa.selenium.ElementClickInterceptedException">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;login&quot; href=&quot;http://automationpractice.com/index.php?controller=my-account&quot; rel=&quot;nofollow&quot; title=&quot;Log in to your customer account&quot;&gt;...&lt;/a&gt; is not clickable at point (1153, 83). Other element would receive the click: &lt;a href=&quot;http://automationpractice.com/index.php?controller=contact&quot; title=&quot;Contact Us&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=78.0.3904.87)
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;UK-AB400-M.local&apos;, ip: &apos;fe80:0:0:0:91:18cf:26ab:da35%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.87, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /var/folders/ds/t4p9fz1s7lq...}, goog:chromeOptions: {debuggerAddress: localhost:63909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 889a88d98e7aff362fed4dd1546e5166
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy19.click(Unknown Source)
+	at com.automationPractice.Pages.HomePage.navigateToSignPage(HomePage.java:53)
+	at com.automationPractice.StepDefinitions.SignInSteps.user_selects_SignIn_link(SignInSteps.java:50)
+	at ✽.When User selects SignIn link(ReviewPreviousOrders.feature:8)
+</error>
+  </testcase>
+  <testcase classname="Scenario: Review Previous Orders and add a message successfully" name="Then User should see the Login Page" time="0.032">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Review Previous Orders and add a message successfully" name="When User enter email as &quot;bjsstest234+134@gmail.com&quot; password as &quot;Password123&quot; and select Signin button" time="0.032">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Review Previous Orders and add a message successfully" name="Then User should see his name as &quot;Test test&quot;" time="0.032">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Review Previous Orders and add a message successfully" name="When user selects home button" time="0.032">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Review Previous Orders and add a message successfully" name="Then User is on the home page" time="0.032">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Review Previous Orders and add a message successfully" name="When user selects my orders" time="0.032">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Review Previous Orders and add a message successfully" name="Then user should navigate to order history page" time="0.032">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Review Previous Orders and add a message successfully" name="When user select signout link" time="0.032">
+    <skipped/>
+  </testcase>
+  <testcase classname="Scenario: Review Previous Orders and add a message successfully" name="Then user should signout successfully" time="0.032">
+    <skipped/>
+  </testcase>
+</testsuite>
